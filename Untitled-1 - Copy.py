@@ -1,0 +1,15 @@
+import math
+f = []#--> declared list vraiable
+p = []
+while True:
+ fs = input("enter a food q for quit :")
+ if fs.lower() == "q":
+  break
+ else:
+   ps = float(input("enter a pirce"))
+   f.append(fs)# we need create a 
+   p.append(ps) # list variable for append()
+tp = sum(p)
+print(f"your food is{f} and it pirce is {tp}")
+      
+   
